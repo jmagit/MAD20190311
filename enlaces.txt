@@ -1,2 +1,6 @@
 https://docs.microsoft.com/es-es/dotnet/standard/design-guidelines/
 https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+
+Adventure
+https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v%3dsql.100)
+https://i.stack.imgur.com/LMu4W.gif
