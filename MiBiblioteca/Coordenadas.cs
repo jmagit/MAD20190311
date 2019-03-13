@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Senasa.Curso.Biblioteca {
+    public delegate Coordenada OperaCoordenada(Coordenada otra);
+
     public class Coordenada {
         private int x, y;
         private int[] men = new int[2];
@@ -50,6 +52,7 @@ namespace Senasa.Curso.Biblioteca {
         /// <param name="cuanto">Valor del incremento, debe ser númerico</param>
         /// <returns>Nuevo punto con los componentes incrementados</returns>
         /// <exception cref="ArgumentNullException" />
+        [Obsolete]
         public Coordenada Incrementa(string cuanto) {
             return new Coordenada(X + int.Parse(cuanto), Y + int.Parse(cuanto));
         }
@@ -61,6 +64,18 @@ namespace Senasa.Curso.Biblioteca {
             }
         }
 
+        public Coordenada Suma(Coordenada otra) {
+            return new Coordenada(X + otra.X, Y + otra.Y);
+        }
+        public Coordenada Resta(Coordenada otra) {
+            return new Coordenada(X - otra.X, Y - otra.Y);
+        }
+
+        public void Calcula(OperaCoordenada m) {
+            var rslt = m(this);
+            X = rslt.X;
+            Y = rslt.Y;
+        }
         public override string ToString() {
             return $"Punto: x={X} y={Y}";
         }
