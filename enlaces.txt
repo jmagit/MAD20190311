@@ -1,0 +1,2 @@
+https://docs.microsoft.com/es-es/dotnet/standard/design-guidelines/
+https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
