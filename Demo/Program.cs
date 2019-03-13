@@ -22,42 +22,17 @@ namespace Demo {
         /// <param name="args"></param>
         /// <param name="kk"></param>
         /// <returns></returns>
-        static int Main(string[] args, int kk) {
-            Coordenadas c = new Coordenadas();
-            c.X = 4;
-            if(c.X == 4)
-            c.tipo = "kk";
+        static void Main(string[] args) {
+            Coordenada c = new Coordenada(0, 0);
 
-            //Nullable<int> i;
-            int? i = 4;
-            string p = "400€";
             try {
-                i = int.Parse(p);
-                
-
-            } catch (Exception) {
-
-                throw;
+                c.Incrementa("abc");
+            } catch (BibliotecaException ex) {
+                Console.WriteLine(ex.Message);
+            } catch (Exception ex) {
+                Console.WriteLine(ex.Message);
             }
-
-            if(int.TryParse(p, out i)) {
-
-            }
-
-            i = null;
-            if(i.HasValue) {
-                int j = i.Value;
-                j.ToString();
-            }
-            string r = "kk";
-            var c = 4;
-            c = "dd";
-            //r = "Elemento" + (i.Value == 1 ? "" : "s") + 
-            for(int i=0; i < limite; i++) {
-
-            }
-            
-            return 0;
+            Console.ReadKey();
         }
     }
 }
