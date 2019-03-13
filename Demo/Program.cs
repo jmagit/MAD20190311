@@ -26,11 +26,15 @@ namespace Demo {
             Coordenada c = new Coordenada(0, 0);
             Coordenada a = new Coordenada(2, 2);
             OperaCoordenada metodo = a.Resta;
+            Func<Coordenada, Coordenada> m2 =  a.Resta;
             Elemento<int> prov = new Elemento<int>();
             prov.Id =4;
             Elemento<string> pais = new Elemento<string>();
             pais.Id = "ES";
+            if(ValidarCadenas.EstaVacia(pais.Id)) {
 
+            }
+            if(pais.Id.MaxLen(50)) { }
             try {
                 c.Incrementa("11");
                 metodo = c.Suma;

@@ -38,6 +38,7 @@ namespace Senasa.Curso.Biblioteca {
             var aux = X;
             X = Y;
             Y = X;
+            // (X, Y) = (Y, X);
         }
 
         public Coordenada Incrementa(int cuanto) {
