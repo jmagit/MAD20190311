@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiBiblioteca", "MiBiblioteca\MiBiblioteca.csproj", "{24FC474F-A3EC-4474-AE7A-6B6DCA12D488}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeEscritorio", "DeEscritorio\DeEscritorio.csproj", "{D03FCC72-4B6B-4B0E-B80F-5C56B77141A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{24FC474F-A3EC-4474-AE7A-6B6DCA12D488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24FC474F-A3EC-4474-AE7A-6B6DCA12D488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24FC474F-A3EC-4474-AE7A-6B6DCA12D488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03FCC72-4B6B-4B0E-B80F-5C56B77141A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03FCC72-4B6B-4B0E-B80F-5C56B77141A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03FCC72-4B6B-4B0E-B80F-5C56B77141A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03FCC72-4B6B-4B0E-B80F-5C56B77141A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DB58B31F-CD60-4D1A-8DF0-3DC8BA275F61} = {2BDCC929-A990-4204-9C24-B49443241D61}
 		{24FC474F-A3EC-4474-AE7A-6B6DCA12D488} = {2BDCC929-A990-4204-9C24-B49443241D61}
+		{D03FCC72-4B6B-4B0E-B80F-5C56B77141A9} = {2BDCC929-A990-4204-9C24-B49443241D61}
 	EndGlobalSection
 EndGlobal
