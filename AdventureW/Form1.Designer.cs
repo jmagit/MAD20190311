@@ -50,6 +50,7 @@
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.consola = new System.Windows.Forms.RichTextBox();
             this.btnConsultar = new System.Windows.Forms.Button();
+            this.btnDA = new System.Windows.Forms.Button();
             this.productCategoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.aWDataSet = new AdventureW.AWDataSet();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -310,6 +311,16 @@
             this.btnConsultar.UseVisualStyleBackColor = true;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
+            // btnDA
+            // 
+            this.btnDA.Location = new System.Drawing.Point(334, 188);
+            this.btnDA.Name = "btnDA";
+            this.btnDA.Size = new System.Drawing.Size(75, 23);
+            this.btnDA.TabIndex = 12;
+            this.btnDA.Text = "DA";
+            this.btnDA.UseVisualStyleBackColor = true;
+            this.btnDA.Click += new System.EventHandler(this.btnDA_Click);
+            // 
             // productCategoryBindingSource
             // 
             this.productCategoryBindingSource.DataMember = "ProductCategory";
@@ -358,16 +369,18 @@
             this.tableAdapterManager.ProductCategoryTableAdapter = this.productCategoryTableAdapter;
             this.tableAdapterManager.ProductSubcategoryTableAdapter = null;
             this.tableAdapterManager.ProductTableAdapter = null;
+            this.tableAdapterManager.ScrapReasonTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = AdventureW.AWDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(334, 188);
+            this.button1.Location = new System.Drawing.Point(334, 215);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
+            this.button1.Text = "EF";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -375,6 +388,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(745, 320);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDA);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.consola);
             this.Controls.Add(productCategoryIDLabel);
@@ -433,6 +447,7 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.RichTextBox consola;
+        private System.Windows.Forms.Button btnDA;
         private System.Windows.Forms.Button button1;
     }
 }
