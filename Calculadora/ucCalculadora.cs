@@ -77,7 +77,7 @@ namespace Calculadora {
 
         private void btnMasMenos_Click(object sender, EventArgs e) {
             Pantalla.Text = Convert.ToString(-1 * Convert.ToDouble(Pantalla.Text));
-            if (limpia) acumulador = -acumulador;
+            //if (limpia) acumulador = -acumulador;
         }
 
         private void btnRetroceso_Click(object sender, EventArgs e) {

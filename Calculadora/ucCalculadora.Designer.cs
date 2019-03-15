@@ -62,7 +62,7 @@
             this.ArchivolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(249, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(298, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -144,7 +144,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(224, 341);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(273, 285);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // Pantalla
@@ -157,7 +157,7 @@
             this.Pantalla.Location = new System.Drawing.Point(13, 36);
             this.Pantalla.Name = "Pantalla";
             this.Pantalla.ReadOnly = true;
-            this.Pantalla.Size = new System.Drawing.Size(224, 38);
+            this.Pantalla.Size = new System.Drawing.Size(273, 38);
             this.Pantalla.TabIndex = 22;
             this.Pantalla.TabStop = false;
             this.Pantalla.Text = "0";
@@ -172,7 +172,7 @@
             this.btnNueva.ForeColor = System.Drawing.Color.Red;
             this.btnNueva.Location = new System.Drawing.Point(3, 3);
             this.btnNueva.Name = "btnNueva";
-            this.btnNueva.Size = new System.Drawing.Size(50, 62);
+            this.btnNueva.Size = new System.Drawing.Size(62, 51);
             this.btnNueva.TabIndex = 23;
             this.btnNueva.Text = "C";
             this.btnNueva.Click += new System.EventHandler(this.btnNueva_Click);
@@ -184,9 +184,9 @@
             this.btnRetroceso.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnRetroceso.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btnRetroceso.ForeColor = System.Drawing.Color.Red;
-            this.btnRetroceso.Location = new System.Drawing.Point(59, 3);
+            this.btnRetroceso.Location = new System.Drawing.Point(71, 3);
             this.btnRetroceso.Name = "btnRetroceso";
-            this.btnRetroceso.Size = new System.Drawing.Size(106, 62);
+            this.btnRetroceso.Size = new System.Drawing.Size(130, 51);
             this.btnRetroceso.TabIndex = 25;
             this.btnRetroceso.Text = "ç";
             this.btnRetroceso.Click += new System.EventHandler(this.btnRetroceso_Click);
@@ -197,9 +197,9 @@
             this.btnMas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMas.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMas.ForeColor = System.Drawing.Color.Red;
-            this.btnMas.Location = new System.Drawing.Point(171, 3);
+            this.btnMas.Location = new System.Drawing.Point(207, 3);
             this.btnMas.Name = "btnMas";
-            this.btnMas.Size = new System.Drawing.Size(50, 62);
+            this.btnMas.Size = new System.Drawing.Size(63, 51);
             this.btnMas.TabIndex = 25;
             this.btnMas.Text = "+";
             this.btnMas.Click += new System.EventHandler(this.btnOperadoresClick);
@@ -210,9 +210,9 @@
             this.btn7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn7.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn7.Location = new System.Drawing.Point(3, 71);
+            this.btn7.Location = new System.Drawing.Point(3, 60);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(50, 62);
+            this.btn7.Size = new System.Drawing.Size(62, 51);
             this.btn7.TabIndex = 26;
             this.btn7.Text = "7";
             this.btn7.Click += new System.EventHandler(this.btnDigitoClick);
@@ -223,9 +223,9 @@
             this.btn8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn8.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn8.Location = new System.Drawing.Point(59, 71);
+            this.btn8.Location = new System.Drawing.Point(71, 60);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(50, 62);
+            this.btn8.Size = new System.Drawing.Size(62, 51);
             this.btn8.TabIndex = 27;
             this.btn8.Text = "8";
             this.btn8.Click += new System.EventHandler(this.btnDigitoClick);
@@ -236,9 +236,9 @@
             this.btn9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn9.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn9.Location = new System.Drawing.Point(115, 71);
+            this.btn9.Location = new System.Drawing.Point(139, 60);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(50, 62);
+            this.btn9.Size = new System.Drawing.Size(62, 51);
             this.btn9.TabIndex = 28;
             this.btn9.Text = "9";
             this.btn9.Click += new System.EventHandler(this.btnDigitoClick);
@@ -249,9 +249,9 @@
             this.btnMenos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMenos.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenos.ForeColor = System.Drawing.Color.Red;
-            this.btnMenos.Location = new System.Drawing.Point(171, 71);
+            this.btnMenos.Location = new System.Drawing.Point(207, 60);
             this.btnMenos.Name = "btnMenos";
-            this.btnMenos.Size = new System.Drawing.Size(50, 62);
+            this.btnMenos.Size = new System.Drawing.Size(63, 51);
             this.btnMenos.TabIndex = 29;
             this.btnMenos.Text = "-";
             this.btnMenos.Click += new System.EventHandler(this.btnOperadoresClick);
@@ -262,9 +262,9 @@
             this.btn4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn4.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn4.Location = new System.Drawing.Point(3, 139);
+            this.btn4.Location = new System.Drawing.Point(3, 117);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(50, 62);
+            this.btn4.Size = new System.Drawing.Size(62, 51);
             this.btn4.TabIndex = 30;
             this.btn4.Text = "4";
             this.btn4.Click += new System.EventHandler(this.btnDigitoClick);
@@ -275,9 +275,9 @@
             this.btn5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn5.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn5.Location = new System.Drawing.Point(59, 139);
+            this.btn5.Location = new System.Drawing.Point(71, 117);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(50, 62);
+            this.btn5.Size = new System.Drawing.Size(62, 51);
             this.btn5.TabIndex = 31;
             this.btn5.Text = "5";
             this.btn5.Click += new System.EventHandler(this.btnDigitoClick);
@@ -288,9 +288,9 @@
             this.btn6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn6.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn6.Location = new System.Drawing.Point(115, 139);
+            this.btn6.Location = new System.Drawing.Point(139, 117);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(50, 62);
+            this.btn6.Size = new System.Drawing.Size(62, 51);
             this.btn6.TabIndex = 32;
             this.btn6.Text = "6";
             this.btn6.Click += new System.EventHandler(this.btnDigitoClick);
@@ -301,9 +301,9 @@
             this.btnPor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnPor.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPor.ForeColor = System.Drawing.Color.Red;
-            this.btnPor.Location = new System.Drawing.Point(171, 139);
+            this.btnPor.Location = new System.Drawing.Point(207, 117);
             this.btnPor.Name = "btnPor";
-            this.btnPor.Size = new System.Drawing.Size(50, 62);
+            this.btnPor.Size = new System.Drawing.Size(63, 51);
             this.btnPor.TabIndex = 33;
             this.btnPor.Text = "*";
             this.btnPor.Click += new System.EventHandler(this.btnOperadoresClick);
@@ -314,9 +314,9 @@
             this.btn1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn1.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn1.Location = new System.Drawing.Point(3, 207);
+            this.btn1.Location = new System.Drawing.Point(3, 174);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(50, 62);
+            this.btn1.Size = new System.Drawing.Size(62, 51);
             this.btn1.TabIndex = 34;
             this.btn1.Text = "1";
             this.btn1.Click += new System.EventHandler(this.btnDigitoClick);
@@ -327,9 +327,9 @@
             this.btn2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn2.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn2.Location = new System.Drawing.Point(59, 207);
+            this.btn2.Location = new System.Drawing.Point(71, 174);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(50, 62);
+            this.btn2.Size = new System.Drawing.Size(62, 51);
             this.btn2.TabIndex = 35;
             this.btn2.Text = "2";
             this.btn2.Click += new System.EventHandler(this.btnDigitoClick);
@@ -340,9 +340,9 @@
             this.btn3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn3.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn3.Location = new System.Drawing.Point(115, 207);
+            this.btn3.Location = new System.Drawing.Point(139, 174);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(50, 62);
+            this.btn3.Size = new System.Drawing.Size(62, 51);
             this.btn3.TabIndex = 36;
             this.btn3.Text = "3";
             this.btn3.Click += new System.EventHandler(this.btnDigitoClick);
@@ -353,9 +353,9 @@
             this.btnEntre.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEntre.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntre.ForeColor = System.Drawing.Color.Red;
-            this.btnEntre.Location = new System.Drawing.Point(171, 207);
+            this.btnEntre.Location = new System.Drawing.Point(207, 174);
             this.btnEntre.Name = "btnEntre";
-            this.btnEntre.Size = new System.Drawing.Size(50, 62);
+            this.btnEntre.Size = new System.Drawing.Size(63, 51);
             this.btnEntre.TabIndex = 37;
             this.btnEntre.Text = "/";
             this.btnEntre.Click += new System.EventHandler(this.btnOperadoresClick);
@@ -366,9 +366,9 @@
             this.btn0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn0.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btn0.Location = new System.Drawing.Point(3, 275);
+            this.btn0.Location = new System.Drawing.Point(3, 231);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(50, 63);
+            this.btn0.Size = new System.Drawing.Size(62, 51);
             this.btn0.TabIndex = 38;
             this.btn0.Text = "0";
             this.btn0.Click += new System.EventHandler(this.btnDigitoClick);
@@ -379,9 +379,9 @@
             this.btnComa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnComa.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComa.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btnComa.Location = new System.Drawing.Point(59, 275);
+            this.btnComa.Location = new System.Drawing.Point(71, 231);
             this.btnComa.Name = "btnComa";
-            this.btnComa.Size = new System.Drawing.Size(50, 63);
+            this.btnComa.Size = new System.Drawing.Size(62, 51);
             this.btnComa.TabIndex = 39;
             this.btnComa.Text = ",";
             this.btnComa.Click += new System.EventHandler(this.btnComa_Click);
@@ -392,9 +392,9 @@
             this.btnMasMenos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMasMenos.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMasMenos.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btnMasMenos.Location = new System.Drawing.Point(115, 275);
+            this.btnMasMenos.Location = new System.Drawing.Point(139, 231);
             this.btnMasMenos.Name = "btnMasMenos";
-            this.btnMasMenos.Size = new System.Drawing.Size(50, 63);
+            this.btnMasMenos.Size = new System.Drawing.Size(62, 51);
             this.btnMasMenos.TabIndex = 40;
             this.btnMasMenos.Text = "±";
             this.btnMasMenos.Click += new System.EventHandler(this.btnMasMenos_Click);
@@ -405,9 +405,9 @@
             this.btnIgual.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnIgual.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIgual.ForeColor = System.Drawing.Color.Red;
-            this.btnIgual.Location = new System.Drawing.Point(171, 275);
+            this.btnIgual.Location = new System.Drawing.Point(207, 231);
             this.btnIgual.Name = "btnIgual";
-            this.btnIgual.Size = new System.Drawing.Size(50, 63);
+            this.btnIgual.Size = new System.Drawing.Size(63, 51);
             this.btnIgual.TabIndex = 41;
             this.btnIgual.Text = "=";
             this.btnIgual.Click += new System.EventHandler(this.btnOperadoresClick);
@@ -420,7 +420,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "ucCalculadora";
-            this.Size = new System.Drawing.Size(249, 432);
+            this.Size = new System.Drawing.Size(298, 376);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ucCalculadora_KeyPress);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
