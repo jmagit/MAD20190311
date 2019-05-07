@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>AdventureWorks</DataSourceReference>
+      <CommandText>SELECT        YEAR(OrderDate) AS año, DATEPART(QUARTER, OrderDate) AS trimestre, MONTH(OrderDate) AS mes, SUM(TotalDue) AS total, AVG(TotalDue) AS media, COUNT(*) AS pedidos
+FROM            Sales.SalesOrderHeader
+GROUP BY YEAR(OrderDate), DATEPART(QUARTER, OrderDate), MONTH(OrderDate)
+ORDER BY año, trimestre, mes</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="año">
+        <DataField>año</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="trimestre">
+        <DataField>trimestre</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="mes">
+        <DataField>mes</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="total">
+        <DataField>total</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="media">
+        <DataField>media</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="pedidos">
+        <DataField>pedidos</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
