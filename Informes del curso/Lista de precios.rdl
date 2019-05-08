@@ -739,7 +739,7 @@
                             <TablixMember />
                           </TablixMembers>
                           <Visibility>
-                            <ToggleItem>Subcategory</ToggleItem>
+                            <Hidden>true</Hidden>
                           </Visibility>
                           <DataElementName>Detail_Collection</DataElementName>
                           <DataElementOutput>Output</DataElementOutput>

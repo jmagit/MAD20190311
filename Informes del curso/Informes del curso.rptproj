@@ -13,6 +13,10 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
+      <Name>Lista de Precios.rsd</Name>
+      <FullPath>Lista de Precios.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Resumen de Ventas Mensuales.rsd</Name>
       <FullPath>Resumen de Ventas Mensuales.rsd</FullPath>
     </ProjectItem>
@@ -25,22 +29,30 @@
       <FullPath>Resumen parametrizado por año.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Lista de Precios.rsd</Name>
-      <FullPath>Lista de Precios.rsd</FullPath>
+      <Name>Lista de Años.rsd</Name>
+      <FullPath>Lista de Años.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
     <ProjectItem>
-      <Name>Lista de precios.rdl</Name>
-      <FullPath>Lista de precios.rdl</FullPath>
+      <Name>Catalogo de Productos.rdl</Name>
+      <FullPath>Catalogo de Productos.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Informe de ventas mensuales.rdl</Name>
+      <FullPath>Informe de ventas mensuales.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Informe trimestral.rdl</Name>
       <FullPath>Informe trimestral.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Catalogo de Productos.rdl</Name>
-      <FullPath>Catalogo de Productos.rdl</FullPath>
+      <Name>Lista de precios.rdl</Name>
+      <FullPath>Lista de precios.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>pedidos cruzados.rdl</Name>
+      <FullPath>pedidos cruzados.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

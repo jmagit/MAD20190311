@@ -392,7 +392,7 @@
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>=Fields!mes.Value</Value>
+                                    <Value>=MonthName(Fields!mes.Value)</Value>
                                     <Style />
                                   </TextRun>
                                 </TextRuns>

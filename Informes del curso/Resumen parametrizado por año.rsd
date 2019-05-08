@@ -11,10 +11,11 @@
           <rd:DbType>Object</rd:DbType>
         </DataSetParameter>
       </DataSetParameters>
-      <CommandText>SELECT        YEAR(OrderDate) AS año, DATEPART(QUARTER, OrderDate) AS trimestre, MONTH(OrderDate) AS mes, SUM(TotalDue) AS total, AVG(TotalDue) AS media, COUNT(*) AS pedidos
+      <CommandText>SELECT        YEAR(OrderDate) AS año, DATEPART(QUARTER, OrderDate) AS trimestre, MONTH(OrderDate) AS mes,
+	DATENAME(month, OrderDate) MesNombre, SUM(TotalDue) AS total, AVG(TotalDue) AS media, COUNT(*) AS pedidos
 FROM            Sales.SalesOrderHeader
 WHERE (@año IS NULL OR YEAR(OrderDate) = @año)
-GROUP BY YEAR(OrderDate), DATEPART(QUARTER, OrderDate), MONTH(OrderDate)
+GROUP BY YEAR(OrderDate), DATEPART(QUARTER, OrderDate), MONTH(OrderDate), DATENAME(month, OrderDate)
 ORDER BY año, trimestre, mes</CommandText>
       <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
     </Query>
@@ -30,6 +31,10 @@ ORDER BY año, trimestre, mes</CommandText>
       <Field Name="mes">
         <DataField>mes</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MesNombre">
+        <DataField>MesNombre</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="total">
         <DataField>total</DataField>

@@ -4,11 +4,13 @@
   <DataSet Name="ListaPrecios">
     <Query>
       <DataSourceReference>AdventureWorks</DataSourceReference>
-      <CommandText>SELECT        Production.ProductCategory.Name AS Category, Production.ProductSubcategory.Name AS Subcategory, Production.Product.Name AS Product, Production.Product.ProductNumber, Production.Product.ListPrice
+      <CommandText>SELECT        Production.ProductCategory.Name AS Category, Production.ProductSubcategory.Name AS Subcategory, Production.Product.Name AS Product, Production.Product.ProductNumber, Production.Product.ListPrice, 
+                         RTRIM(Production.Product.Class) AS Class, RTRIM(Production.Product.Style) AS Style, Production.Product.Color
 FROM            Production.Product INNER JOIN
                          Production.ProductSubcategory ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID INNER JOIN
                          Production.ProductCategory ON Production.ProductSubcategory.ProductCategoryID = Production.ProductCategory.ProductCategoryID
 ORDER BY Category, Subcategory, Production.Product.ProductNumber</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
     </Query>
     <Fields>
       <Field Name="Category">
@@ -30,6 +32,18 @@ ORDER BY Category, Subcategory, Production.Product.ProductNumber</CommandText>
       <Field Name="ListPrice">
         <DataField>ListPrice</DataField>
         <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Class">
+        <DataField>Class</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Style">
+        <DataField>Style</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Color">
+        <DataField>Color</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
       </Field>
     </Fields>
   </DataSet>
