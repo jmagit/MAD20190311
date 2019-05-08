@@ -54,6 +54,10 @@
       <Name>pedidos cruzados.rdl</Name>
       <FullPath>pedidos cruzados.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Graficas.rdl</Name>
+      <FullPath>Graficas.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
