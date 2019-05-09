@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>AdventureWorks</DataSourceReference>
+      <CommandText>SELECT P.ProductID
+	 , P.Name
+	 , P.ProductNumber
+	 , P.MakeFlag
+	 , P.FinishedGoodsFlag
+	 , P.Color
+	 , P.SafetyStockLevel
+	 , P.ReorderPoint
+	 , P.StandardCost
+	 , P.ListPrice
+	 , P.Size
+	 , SizeUnitMeasure.Name AS SizeUnit
+	 , P.Weight
+	 , WeightUnitMeasure.Name AS WeightUnit
+	 , P.Class
+	 , case P.Class when 'H' then 'Alta' when 'M' then 'Media' when 'l' then 'Consumo' else null end Gama
+	 , P.Style
+	 , case P.Style when 'W' then 'Femenino' when 'M' then 'Masculino' when 'U' then 'Universal' else null end Estilo
+	 , C.Name AS Category
+	 , SC.Name AS Subcategory
+	 , F.ThumbNailPhoto
+	 , F.LargePhoto
+FROM Production.Product AS P INNER JOIN
+    Production.ProductSubcategory AS SC ON P.ProductSubcategoryID = SC.ProductSubcategoryID INNER JOIN
+    Production.ProductCategory AS C ON SC.ProductCategoryID = C.ProductCategoryID INNER JOIN
+    Production.ProductProductPhoto AS PF ON P.ProductID = PF.ProductID INNER JOIN
+    Production.ProductPhoto AS F ON PF.ProductPhotoID = F.ProductPhotoID INNER JOIN
+    Production.UnitMeasure AS SizeUnitMeasure ON P.SizeUnitMeasureCode = SizeUnitMeasure.UnitMeasureCode INNER JOIN
+    Production.UnitMeasure AS WeightUnitMeasure ON P.WeightUnitMeasureCode = WeightUnitMeasure.UnitMeasureCode
+</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ProductID">
+        <DataField>ProductID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Name">
+        <DataField>Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProductNumber">
+        <DataField>ProductNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MakeFlag">
+        <DataField>MakeFlag</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="FinishedGoodsFlag">
+        <DataField>FinishedGoodsFlag</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="Color">
+        <DataField>Color</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SafetyStockLevel">
+        <DataField>SafetyStockLevel</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="ReorderPoint">
+        <DataField>ReorderPoint</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="StandardCost">
+        <DataField>StandardCost</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ListPrice">
+        <DataField>ListPrice</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Size">
+        <DataField>Size</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SizeUnit">
+        <DataField>SizeUnit</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Weight">
+        <DataField>Weight</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="WeightUnit">
+        <DataField>WeightUnit</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Class">
+        <DataField>Class</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Gama">
+        <DataField>Gama</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Style">
+        <DataField>Style</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Estilo">
+        <DataField>Estilo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Category">
+        <DataField>Category</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Subcategory">
+        <DataField>Subcategory</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ThumbNailPhoto">
+        <DataField>ThumbNailPhoto</DataField>
+        <rd:TypeName>System.Byte[]</rd:TypeName>
+      </Field>
+      <Field Name="LargePhoto">
+        <DataField>LargePhoto</DataField>
+        <rd:TypeName>System.Byte[]</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

@@ -13,8 +13,20 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
+      <Name>Lista de Años.rsd</Name>
+      <FullPath>Lista de Años.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Lista de empleados.rsd</Name>
+      <FullPath>Lista de empleados.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Lista de Precios.rsd</Name>
       <FullPath>Lista de Precios.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Productos con foto.rsd</Name>
+      <FullPath>Productos con foto.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Resumen de Ventas Mensuales.rsd</Name>
@@ -29,14 +41,26 @@
       <FullPath>Resumen parametrizado por año.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Lista de Años.rsd</Name>
-      <FullPath>Lista de Años.rsd</FullPath>
+      <Name>Colores de Productos.rsd</Name>
+      <FullPath>Colores de Productos.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
     <ProjectItem>
+      <Name>Catalogo con foto.rdl</Name>
+      <FullPath>Catalogo con foto.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Catalogo de Productos.rdl</Name>
       <FullPath>Catalogo de Productos.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Etiquetas.rdl</Name>
+      <FullPath>Etiquetas.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Graficas.rdl</Name>
+      <FullPath>Graficas.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Informe de ventas mensuales.rdl</Name>
@@ -51,12 +75,20 @@
       <FullPath>Lista de precios.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>pedidos cruzados.rdl</Name>
-      <FullPath>pedidos cruzados.rdl</FullPath>
+      <Name>Paginado.rdl</Name>
+      <FullPath>Paginado.rdl</FullPath>
+      <PublishableComponents>
+        <PublishedItem>
+          <ComponentId>160babe7-bde8-409e-91f0-12f0b84010ea</ComponentId>
+          <IsOverwriteOnRedeploy>true</IsOverwriteOnRedeploy>
+          <ComponentName>Logo_Titulo</ComponentName>
+          <IsSelectedToPublish>true</IsSelectedToPublish>
+        </PublishedItem>
+      </PublishableComponents>
     </ProjectItem>
     <ProjectItem>
-      <Name>Graficas.rdl</Name>
-      <FullPath>Graficas.rdl</FullPath>
+      <Name>pedidos cruzados.rdl</Name>
+      <FullPath>pedidos cruzados.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
