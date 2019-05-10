@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Informes", "03-Informes"
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Informes del curso", "Informes del curso\Informes del curso.rptproj", "{070919A6-6C7F-43E7-AF87-AFDFC78A5AB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorInformes", "VisorInformes\VisorInformes.csproj", "{161C32E8-5191-44EA-AB00-BF6CFB551C91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,12 @@ Global
 		{070919A6-6C7F-43E7-AF87-AFDFC78A5AB9}.Release|Any CPU.ActiveCfg = Release
 		{070919A6-6C7F-43E7-AF87-AFDFC78A5AB9}.Release|Any CPU.Build.0 = Release
 		{070919A6-6C7F-43E7-AF87-AFDFC78A5AB9}.Release|Any CPU.Deploy.0 = Release
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +94,6 @@ Global
 		{A6F25B39-3E02-47A9-A563-67D43042E860} = {4471C7B8-7118-4551-ADB4-399B235E7DAA}
 		{BD520210-715A-4959-89B5-6CE2AA5B5910} = {4471C7B8-7118-4551-ADB4-399B235E7DAA}
 		{070919A6-6C7F-43E7-AF87-AFDFC78A5AB9} = {97E0EF10-469C-4302-AA9B-684185B09C61}
+		{161C32E8-5191-44EA-AB00-BF6CFB551C91} = {97E0EF10-469C-4302-AA9B-684185B09C61}
 	EndGlobalSection
 EndGlobal
